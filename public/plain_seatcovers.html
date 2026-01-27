@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTC-PLAIN SEAT COVERS</title>
+</head>
+
+<body>
+    <h1>Plain Seat Covers List</h1>
+    <img src="../image/name_sc_new.jpg" height="250" oncontextmenu="return false;" draggable="false" /> <br>
+    <img src="../image/plain_top.png" height="500" oncontextmenu="return false;" draggable="false" /> <br>
+
+    <img src="../image/activa_plain.png" height="250" oncontextmenu="return false;" draggable="false" /> <br>
+    <img src="../image/activa_foam.png" height="260" oncontextmenu="return false;" draggable="false" /> <br>
+    <script>
+
+        let allImages = document.querySelectorAll("img");
+        allImages.forEach((value) => {
+            value.oncontextmenu = (e) => {
+                e.preventDefault();
+            };
+        });
+
+    </script>
+</body>
+
+</html>

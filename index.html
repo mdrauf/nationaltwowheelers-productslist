@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Two Wheeler Centre</title>
+</head>
+
+<body>
+    <img src="./image/ntc_logo2.jpg" alt="national logo" width="250" oncontextmenu="return false;" draggable="false" />
+    <h1>National Two Wheeler Centre</h1>
+    <p>We are Manufacturer & Wholesaler in all kinds of Two Wheeler Seat Covers & Tank Covers</p>
+    <p>Mount Road , Chennai , TamilNadu</p>
+    <p>Contact us : +91 7395956247</p>
+    <p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: +91 9840277191 </p>
+    <hr />
+    <h2>Our Products</h2>
+    <hr>
+    <h3><a href="./public/tankcovers.html">Tank Cover's</a></h3>
+    <hr>
+    <h3><a href="./public/xltankcovers.html">XL Tank Cover's</a></h3>
+    <hr>
+    <h3><a href="./public/plain_seatcovers.html">Seat Cover's</a></h3>
+    <hr>
+    <h3><a href="./public/bodycovers.html">Body Cover's</a></h3>
+    <hr>
+    <h3><a href="./public/gripcovers.html">Grip Cover's</a></h3>
+    <hr>
+    <h3><a href="./public/helmets.html">Helmet's</a></h3>
+    <hr>
+
+    <script>
+
+        let allImages = document.querySelectorAll("img");
+        allImages.forEach((value) => {
+            value.oncontextmenu = (e) => {
+                e.preventDefault();
+            };
+        });
+
+    </script>
+</body>
+
+</html>
